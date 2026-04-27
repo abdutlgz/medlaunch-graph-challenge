@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "STD-001",
+    "title": "MS.1 SR.1 — Medical Staff Credentialing",
+    "source": "NIAHO",
+    "chapter": "MS",
+    "description": "The hospital must ensure that all members of the medical staff are credentialed and privileged in accordance with the medical staff bylaws.",
+    "tags": ["credentialing", "medical-staff", "privileges"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-DARLINGTON"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-002",
+    "title": "IC.1 SR.1 — Infection Prevention Program",
+    "source": "NIAHO",
+    "chapter": "IC",
+    "description": "The hospital must have an active, hospital-wide infection prevention and control program with defined policies and procedures.",
+    "tags": ["infection-control", "prevention", "surveillance"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-DARLINGTON", "ORG-MCLEOD-LORIS"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-003",
+    "title": "QM.1 SR.1 — Quality Management System",
+    "source": "NIAHO",
+    "chapter": "QM",
+    "description": "The hospital must develop, implement, and maintain an effective data-driven quality management system.",
+    "tags": ["quality", "qms", "data-driven", "performance-improvement"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-004",
+    "title": "PE.1 SR.3 — Patient Assessment and Reassessment",
+    "source": "NIAHO",
+    "chapter": "PE",
+    "description": "The hospital must ensure patients receive an initial assessment and ongoing reassessments by qualified individuals.",
+    "tags": ["patient-assessment", "reassessment", "clinical"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-DARLINGTON"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-005",
+    "title": "MM.1 SR.2 — Medication Management Policies",
+    "source": "NIAHO",
+    "chapter": "MM",
+    "description": "The hospital must have policies and procedures for safe medication management including ordering, dispensing, administration, and monitoring.",
+    "tags": ["medication", "pharmacy", "administration", "safety"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-LORIS"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-006",
+    "title": "482.21 — QAPI Program (CMS CoP)",
+    "source": "CMS",
+    "chapter": "QAPI",
+    "description": "The hospital must develop, implement, and maintain an effective, ongoing, hospital-wide, data-driven quality assessment and performance improvement program.",
+    "tags": ["quality", "qms", "performance-improvement", "data-driven", "QAPI"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-DARLINGTON", "ORG-MCLEOD-LORIS"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-007",
+    "title": "482.42 — Infection Prevention and Control (CMS CoP)",
+    "source": "CMS",
+    "chapter": "IC",
+    "description": "The hospital must provide a sanitary environment to avoid sources and transmission of infections and communicable diseases.",
+    "tags": ["infection-control", "prevention", "sanitation"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN", "ORG-MCLEOD-DILLON", "ORG-MCLEOD-DARLINGTON", "ORG-MCLEOD-LORIS"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  },
+  {
+    "_id": "STD-008",
+    "title": "LD.1 SR.1 — Leadership and Governance",
+    "source": "NIAHO",
+    "chapter": "LD",
+    "description": "The governing body must ensure the hospital is in compliance with all applicable federal, state, and local laws and regulations.",
+    "tags": ["leadership", "governance", "compliance"],
+    "orgId": "ORG-MCLEOD-MAIN",
+    "applicableOrgIds": ["ORG-MCLEOD-MAIN"],
+    "createdAt": "2025-01-15T00:00:00Z"
+  }
+]
