@@ -39,16 +39,11 @@ medlaunch-graph-challenge/
 │   ├── queries.py
 │   ├── batch.py
 │   └── cluster.py
-├── eda/
+├── eda_and_more/
 │   ├── 01_data_inventory.ipynb
 │   ├── 02_reference_map.ipynb
 │   ├── 03_graph_visualization.ipynb
 │   └── notes.md
-├── learning-notes/
-│   ├── graph_model_explanation.md
-│   ├── mongo_vs_graph_database.md
-│   ├── org_scoping_notes.md
-│   └── limitations_and_next_steps.md
 ├── output/
 │   ├── clusters.json
 │   ├── query1_multi_hop_fnd_002.json
@@ -151,14 +146,6 @@ The current query outputs are stored in `output/`:
 - `query3_org_scoped_subgraph_dillon.json`
 - `query4_fan_out_by_edge_class.json`
 
-## Learning Path
-
-If you want to rebuild understanding from scratch:
-
-1. Use the notebooks in `eda/` to inspect the raw data.
-2. Read `learning-notes/graph_model_explanation.md`.
-3. Re-explain `SCHEMA.md` in your own words.
-4. Then walk through `src/seed.py`, `src/queries.py`, `src/batch.py`, and `src/cluster.py`.
 
 ## Notes on Design
 
