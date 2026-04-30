@@ -1,0 +1,62 @@
+[
+  {
+    "entity": {
+      "entityType": "policy",
+      "entityId": "POL-002",
+      "title": "Infection Prevention and Control Policy",
+      "orgId": "ORG-MCLEOD-MAIN"
+    },
+    "countsByEdgeClass": {
+      "operational": 12
+    },
+    "totalEdgeCount": 12
+  },
+  {
+    "entity": {
+      "entityType": "standard",
+      "entityId": "STD-002",
+      "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+      "orgId": "ORG-MCLEOD-MAIN"
+    },
+    "countsByEdgeClass": {
+      "operational": 10
+    },
+    "totalEdgeCount": 10
+  },
+  {
+    "entity": {
+      "entityType": "finding",
+      "entityId": "FND-001",
+      "title": "Incomplete credentialing files for three locum tenens physicians",
+      "orgId": "ORG-MCLEOD-MAIN"
+    },
+    "countsByEdgeClass": {
+      "operational": 8
+    },
+    "totalEdgeCount": 8
+  },
+  {
+    "entity": {
+      "entityType": "finding",
+      "entityId": "FND-004",
+      "title": "Medication reconciliation not completed within 24 hours of admission",
+      "orgId": "ORG-MCLEOD-DILLON"
+    },
+    "countsByEdgeClass": {
+      "operational": 8
+    },
+    "totalEdgeCount": 8
+  },
+  {
+    "entity": {
+      "entityType": "standard",
+      "entityId": "STD-007",
+      "title": "482.42 \u2014 Infection Prevention and Control (CMS CoP)",
+      "orgId": "ORG-MCLEOD-MAIN"
+    },
+    "countsByEdgeClass": {
+      "operational": 8
+    },
+    "totalEdgeCount": 8
+  }
+]

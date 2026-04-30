@@ -1,0 +1,88 @@
+{
+  "startEntity": {
+    "entityType": "finding",
+    "entityId": "FND-002",
+    "title": "Hand hygiene compliance below threshold in ICU",
+    "orgId": "ORG-MCLEOD-MAIN"
+  },
+  "orgId": "ORG-MCLEOD-MAIN",
+  "reachableEntityCount": 4,
+  "entities": [
+    {
+      "entity": {
+        "entityType": "action_item",
+        "entityId": "AI-003",
+        "title": "Deploy hand hygiene re-education program in Medical ICU",
+        "orgId": "ORG-MCLEOD-MAIN"
+      },
+      "hopCount": 1,
+      "paths": [
+        [
+          "HAS_ACTION_ITEM"
+        ]
+      ]
+    },
+    {
+      "entity": {
+        "entityType": "policy",
+        "entityId": "POL-002",
+        "title": "Infection Prevention and Control Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      },
+      "hopCount": 1,
+      "paths": [
+        [
+          "GOVERNED_BY_POLICY"
+        ],
+        [
+          "HAS_ACTION_ITEM",
+          "IMPLEMENTS_POLICY"
+        ]
+      ]
+    },
+    {
+      "entity": {
+        "entityType": "standard",
+        "entityId": "STD-002",
+        "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+        "orgId": "ORG-MCLEOD-MAIN"
+      },
+      "hopCount": 1,
+      "paths": [
+        [
+          "CITES_STANDARD"
+        ],
+        [
+          "GOVERNED_BY_POLICY",
+          "ALIGNS_WITH_STANDARD"
+        ],
+        [
+          "HAS_ACTION_ITEM",
+          "IMPLEMENTS_STANDARD"
+        ]
+      ]
+    },
+    {
+      "entity": {
+        "entityType": "standard",
+        "entityId": "STD-007",
+        "title": "482.42 \u2014 Infection Prevention and Control (CMS CoP)",
+        "orgId": "ORG-MCLEOD-MAIN"
+      },
+      "hopCount": 1,
+      "paths": [
+        [
+          "CITES_STANDARD"
+        ],
+        [
+          "GOVERNED_BY_POLICY",
+          "ALIGNS_WITH_STANDARD"
+        ],
+        [
+          "HAS_ACTION_ITEM",
+          "IMPLEMENTS_STANDARD"
+        ]
+      ]
+    }
+  ]
+}

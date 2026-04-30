@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "cluster-001",
+    "memberCount": 2,
+    "members": [
+      {
+        "entityType": "action_item",
+        "entityId": "AI-005"
+      },
+      {
+        "entityType": "action_item",
+        "entityId": "AI-006"
+      }
+    ],
+    "internalEdgeCount": 1,
+    "representativeLabel": "medication"
+  },
+  {
+    "_id": "cluster-002",
+    "memberCount": 2,
+    "members": [
+      {
+        "entityType": "event",
+        "entityId": "EVT-003"
+      },
+      {
+        "entityType": "event",
+        "entityId": "EVT-007"
+      }
+    ],
+    "internalEdgeCount": 1,
+    "representativeLabel": "reassessment"
+  },
+  {
+    "_id": "cluster-003",
+    "memberCount": 2,
+    "members": [
+      {
+        "entityType": "finding",
+        "entityId": "FND-003"
+      },
+      {
+        "entityType": "finding",
+        "entityId": "FND-007"
+      }
+    ],
+    "internalEdgeCount": 1,
+    "representativeLabel": "documentation"
+  }
+]

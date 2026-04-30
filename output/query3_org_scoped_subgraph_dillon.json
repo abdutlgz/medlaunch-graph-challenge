@@ -1,0 +1,492 @@
+{
+  "orgId": "ORG-MCLEOD-DILLON",
+  "edgeCount": 27,
+  "edges": [
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-005|ADDRESSES_FINDING|finding|FND-004",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "ADDRESSES_FINDING",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-005",
+        "title": "Retrain admitting pharmacists on reconciliation timeline requirements",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-005|IMPLEMENTS_POLICY|policy|POL-003",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_POLICY",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-005",
+        "title": "Retrain admitting pharmacists on reconciliation timeline requirements",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-003",
+        "title": "Medication Reconciliation Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-005|IMPLEMENTS_STANDARD|standard|STD-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_STANDARD",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-005",
+        "title": "Retrain admitting pharmacists on reconciliation timeline requirements",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-005",
+        "title": "MM.1 SR.2 \u2014 Medication Management Policies",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-006|ADDRESSES_FINDING|finding|FND-004",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "ADDRESSES_FINDING",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-006",
+        "title": "Implement EHR alert for overdue medication reconciliation",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-006|IMPLEMENTS_POLICY|policy|POL-003",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_POLICY",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-006",
+        "title": "Implement EHR alert for overdue medication reconciliation",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-003",
+        "title": "Medication Reconciliation Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-006|IMPLEMENTS_STANDARD|standard|STD-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_STANDARD",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-006",
+        "title": "Implement EHR alert for overdue medication reconciliation",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-005",
+        "title": "MM.1 SR.2 \u2014 Medication Management Policies",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-008|ADDRESSES_FINDING|finding|FND-006",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "ADDRESSES_FINDING",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-008|IMPLEMENTS_POLICY|policy|POL-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_POLICY",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-002",
+        "title": "Infection Prevention and Control Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-008|IMPLEMENTS_STANDARD|standard|STD-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_STANDARD",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-002",
+        "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|action_item|AI-008|IMPLEMENTS_STANDARD|standard|STD-007",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "IMPLEMENTS_STANDARD",
+      "source": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-007",
+        "title": "482.42 \u2014 Infection Prevention and Control (CMS CoP)",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-001|RELATES_TO_ACTION_ITEM|action_item|AI-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_ACTION_ITEM",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-001",
+        "title": "Medication error \u2014 wrong dose administered in Dillon Med/Surg",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "action_item",
+        "entityId": "AI-005",
+        "title": "Retrain admitting pharmacists on reconciliation timeline requirements",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-001|RELATES_TO_FINDING|finding|FND-004",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_FINDING",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-001",
+        "title": "Medication error \u2014 wrong dose administered in Dillon Med/Surg",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-001|RELATES_TO_POLICY|policy|POL-003",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_POLICY",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-001",
+        "title": "Medication error \u2014 wrong dose administered in Dillon Med/Surg",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-003",
+        "title": "Medication Reconciliation Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-001|RELATES_TO_STANDARD|standard|STD-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_STANDARD",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-001",
+        "title": "Medication error \u2014 wrong dose administered in Dillon Med/Surg",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-005",
+        "title": "MM.1 SR.2 \u2014 Medication Management Policies",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-005|RELATES_TO_ACTION_ITEM|action_item|AI-008",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_ACTION_ITEM",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-005",
+        "title": "Sanitizer dispenser outage during norovirus precautions \u2014 Dillon ED",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-005|RELATES_TO_FINDING|finding|FND-006",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_FINDING",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-005",
+        "title": "Sanitizer dispenser outage during norovirus precautions \u2014 Dillon ED",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-005|RELATES_TO_POLICY|policy|POL-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_POLICY",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-005",
+        "title": "Sanitizer dispenser outage during norovirus precautions \u2014 Dillon ED",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-002",
+        "title": "Infection Prevention and Control Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-005|RELATES_TO_STANDARD|standard|STD-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_STANDARD",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-005",
+        "title": "Sanitizer dispenser outage during norovirus precautions \u2014 Dillon ED",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-002",
+        "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|event|EVT-005|RELATES_TO_STANDARD|standard|STD-007",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "RELATES_TO_STANDARD",
+      "source": {
+        "entityType": "event",
+        "entityId": "EVT-005",
+        "title": "Sanitizer dispenser outage during norovirus precautions \u2014 Dillon ED",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-007",
+        "title": "482.42 \u2014 Infection Prevention and Control (CMS CoP)",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-004|CITES_STANDARD|standard|STD-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "CITES_STANDARD",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-005",
+        "title": "MM.1 SR.2 \u2014 Medication Management Policies",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-004|GOVERNED_BY_POLICY|policy|POL-003",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "GOVERNED_BY_POLICY",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-003",
+        "title": "Medication Reconciliation Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-004|HAS_ACTION_ITEM|action_item|AI-005",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "HAS_ACTION_ITEM",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "action_item",
+        "entityId": "AI-005",
+        "title": "Retrain admitting pharmacists on reconciliation timeline requirements",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-004|HAS_ACTION_ITEM|action_item|AI-006",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "HAS_ACTION_ITEM",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-004",
+        "title": "Medication reconciliation not completed within 24 hours of admission",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "action_item",
+        "entityId": "AI-006",
+        "title": "Implement EHR alert for overdue medication reconciliation",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-006|CITES_STANDARD|standard|STD-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "CITES_STANDARD",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-002",
+        "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-006|CITES_STANDARD|standard|STD-007",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "CITES_STANDARD",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "standard",
+        "entityId": "STD-007",
+        "title": "482.42 \u2014 Infection Prevention and Control (CMS CoP)",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-006|GOVERNED_BY_POLICY|policy|POL-002",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "GOVERNED_BY_POLICY",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "policy",
+        "entityId": "POL-002",
+        "title": "Infection Prevention and Control Policy",
+        "orgId": "ORG-MCLEOD-MAIN"
+      }
+    },
+    {
+      "edgeId": "operational|ORG-MCLEOD-DILLON|finding|FND-006|HAS_ACTION_ITEM|action_item|AI-008",
+      "orgId": "ORG-MCLEOD-DILLON",
+      "edgeClass": "operational",
+      "type": "HAS_ACTION_ITEM",
+      "source": {
+        "entityType": "finding",
+        "entityId": "FND-006",
+        "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+        "orgId": "ORG-MCLEOD-DILLON"
+      },
+      "target": {
+        "entityType": "action_item",
+        "entityId": "AI-008",
+        "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+        "orgId": "ORG-MCLEOD-DILLON"
+      }
+    }
+  ]
+}

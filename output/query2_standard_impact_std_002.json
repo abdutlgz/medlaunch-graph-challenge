@@ -1,0 +1,262 @@
+{
+  "standard": {
+    "entityType": "standard",
+    "entityId": "STD-002",
+    "title": "IC.1 SR.1 \u2014 Infection Prevention Program",
+    "orgId": "ORG-MCLEOD-MAIN"
+  },
+  "totalImpactedEntities": 9,
+  "impactedByType": {
+    "action_item": {
+      "count": 3,
+      "entities": [
+        {
+          "entity": {
+            "entityType": "action_item",
+            "entityId": "AI-003",
+            "title": "Deploy hand hygiene re-education program in Medical ICU",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "IMPLEMENTS_STANDARD"
+            ],
+            [
+              "CITES_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "CITES_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "IMPLEMENTS_POLICY"
+            ]
+          ]
+        },
+        {
+          "entity": {
+            "entityType": "action_item",
+            "entityId": "AI-008",
+            "title": "Install additional hand sanitizer dispensers and establish restocking protocol",
+            "orgId": "ORG-MCLEOD-DILLON"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "IMPLEMENTS_STANDARD"
+            ],
+            [
+              "CITES_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "CITES_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "IMPLEMENTS_POLICY"
+            ]
+          ]
+        },
+        {
+          "entity": {
+            "entityType": "action_item",
+            "entityId": "AI-010",
+            "title": "Update infection prevention policy to 2024 CDC guidance",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "IMPLEMENTS_STANDARD"
+            ],
+            [
+              "CITES_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "CITES_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "IMPLEMENTS_POLICY"
+            ]
+          ]
+        }
+      ]
+    },
+    "finding": {
+      "count": 3,
+      "entities": [
+        {
+          "entity": {
+            "entityType": "finding",
+            "entityId": "FND-002",
+            "title": "Hand hygiene compliance below threshold in ICU",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "CITES_STANDARD"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "GOVERNED_BY_POLICY"
+            ],
+            [
+              "TARGETS_STANDARD",
+              "TRACKS_FINDING"
+            ]
+          ]
+        },
+        {
+          "entity": {
+            "entityType": "finding",
+            "entityId": "FND-006",
+            "title": "Hand hygiene compliance below threshold in ED \u2014 Dillon",
+            "orgId": "ORG-MCLEOD-DILLON"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "CITES_STANDARD"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "GOVERNED_BY_POLICY"
+            ],
+            [
+              "TARGETS_STANDARD",
+              "TRACKS_FINDING"
+            ]
+          ]
+        },
+        {
+          "entity": {
+            "entityType": "finding",
+            "entityId": "FND-008",
+            "title": "Infection prevention policy not updated to reflect current CDC guidance",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "CITES_STANDARD"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "HAS_ACTION_ITEM"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "ADDRESSES_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "GOVERNED_BY_POLICY"
+            ]
+          ]
+        }
+      ]
+    },
+    "policy": {
+      "count": 1,
+      "entities": [
+        {
+          "entity": {
+            "entityType": "policy",
+            "entityId": "POL-002",
+            "title": "Infection Prevention and Control Policy",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "ALIGNS_WITH_STANDARD"
+            ],
+            [
+              "CITES_STANDARD",
+              "GOVERNED_BY_POLICY"
+            ],
+            [
+              "IMPLEMENTS_STANDARD",
+              "IMPLEMENTS_POLICY"
+            ],
+            [
+              "TARGETS_STANDARD",
+              "SUPPORTS_POLICY"
+            ]
+          ]
+        }
+      ]
+    },
+    "quality_objective": {
+      "count": 2,
+      "entities": [
+        {
+          "entity": {
+            "entityType": "quality_objective",
+            "entityId": "QO-001",
+            "title": "Achieve 90% hand hygiene compliance system-wide by Q2 2026",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 1,
+          "paths": [
+            [
+              "TARGETS_STANDARD"
+            ],
+            [
+              "CITES_STANDARD",
+              "TRACKS_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "SUPPORTS_POLICY"
+            ]
+          ]
+        },
+        {
+          "entity": {
+            "entityType": "quality_objective",
+            "entityId": "QO-005",
+            "title": "100% policy currency \u2014 all policies reviewed within 12-month cycle",
+            "orgId": "ORG-MCLEOD-MAIN"
+          },
+          "hopCount": 2,
+          "paths": [
+            [
+              "CITES_STANDARD",
+              "TRACKS_FINDING"
+            ],
+            [
+              "ALIGNS_WITH_STANDARD",
+              "SUPPORTS_POLICY"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
